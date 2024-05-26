@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"leetCodeSolutions/destinationCity"
+	"leetCodeSolutions/polindromeNumber"
 	"leetCodeSolutions/twoSum"
 )
 
@@ -15,6 +16,11 @@ func main() {
 	//two sum solution
 	if twoSumResult := twoSum.RunTest(); twoSumResult {
 		fmt.Println("Two Sum test successful")
+	}
+
+	//polindrome number solution
+	if polindromeNumberResult := polindromeNumber.RunTest(); polindromeNumberResult {
+		fmt.Println("Palindrome number test successful")
 	}
 
 }

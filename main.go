@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"leetCodeSolutions/destinationCity"
 	"leetCodeSolutions/polindromeNumber"
+	romanToInt "leetCodeSolutions/romanToInteger"
 	"leetCodeSolutions/twoSum"
 )
 
@@ -21,6 +22,11 @@ func main() {
 	//polindrome number solution
 	if polindromeNumberResult := polindromeNumber.RunTest(); polindromeNumberResult {
 		fmt.Println("Palindrome number test successful")
+	}
+
+	//romanToInteger
+	if romanToIntResult := romanToInt.RunTest(); romanToIntResult {
+		fmt.Println("Roman To Integer test successful")
 	}
 
 }

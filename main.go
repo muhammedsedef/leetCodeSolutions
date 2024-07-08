@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"leetCodeSolutions/destinationCity"
+	"leetCodeSolutions/longestCommonPrefix"
 	"leetCodeSolutions/polindromeNumber"
 	romanToInt "leetCodeSolutions/romanToInteger"
 	"leetCodeSolutions/twoSum"
@@ -27,6 +28,11 @@ func main() {
 	//romanToInteger
 	if romanToIntResult := romanToInt.RunTest(); romanToIntResult {
 		fmt.Println("Roman To Integer test successful")
+	}
+
+	// longest common prefix
+	if longestCommonPrefixResult := longestCommonPrefix.RunTest(); longestCommonPrefixResult {
+		fmt.Println("Longest CommonPrefix test successful")
 	}
 
 }
